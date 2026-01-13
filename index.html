@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OLAIA Sanctuary — Residencial con alma</title>
+  <meta name="description" content="Olaia Sanctuary: lotes residenciales de 200 m² en Barranca Honda, Bajos de Chila, Oaxaca. A 15 minutos de Puerto Escondido. Energía eléctrica y agua potable." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/olaia_logo_nav.webp" />
+</head>
+<body>
+  <!-- Mobile Top Bar -->
+  <header class="topbar" aria-label="Encabezado">
+    <a class="brand" href="#home" aria-label="Ir al inicio">
+      <img src="assets/olaia_logo_nav.webp" alt="OLAIA Sanctuary" height="34" />
+    </a>
+
+    <button class="icon-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="sidebar">
+      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 6h16M4 12h16M4 18h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </header>
+
+  <!-- Sidebar / Navigation -->
+  <aside class="sidebar" id="sidebar" aria-label="Navegación principal">
+    <div class="sidebar__header">
+      <img src="assets/olaia_logo_nav.webp" alt="OLAIA Sanctuary" height="40" />
+      <p class="sidebar__tagline">Un residencial con alma</p>
+    </div>
+
+    <nav class="nav">
+      <a class="nav__item active" href="#home">Home</a>
+      <a class="nav__item" href="#ubicacion">Ubicación</a>
+      <a class="nav__item" href="#masterplan">Master Plan</a>
+      <a class="nav__item" href="#amenidades">Amenidades</a>
+      <a class="nav__item" href="#video">Video</a>
+      <a class="nav__item" href="#recorrido">Recorrido virtual</a>
+      <a class="nav__item" href="#brochure">Brochure</a>
+      <a class="nav__item" href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="sidebar__footer">
+      <span>Desarrolla:</span>
+      <img src="assets/luna_logo_footer.webp" alt="LUNA Grupo Inmobiliario" height="28" />
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main">
+    <!-- HERO -->
+    <section id="home" class="section hero" aria-label="Home">
+      <div class="hero__content">
+        <h1>OLAIA <span>Sanctuary</span></h1>
+        <p class="hero__lead">
+          Nace de un deseo profundo: crear un espacio que no solo se habite, sino que se sienta.
+          Privacidad, conexión auténtica con la naturaleza y cercanía con el mar.
+        </p>
+
+        <div class="hero__kpis">
+          <div class="kpi">
+            <div class="kpi__value">200 m²</div>
+            <div class="kpi__label">Lotes residenciales</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi__value">15 min</div>
+            <div class="kpi__label">Desde Puerto Escondido</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi__value">Servicios</div>
+            <div class="kpi__label">Energía eléctrica + agua potable</div>
+          </div>
+        </div>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#recorrido">Ver recorrido</a>
+          <a class="btn btn--ghost" href="#brochure">Ver brochure</a>
+        </div>
+
+        <p class="hero__note">
+          Nota: precios, disponibilidad y condiciones pueden cambiar. Para información vigente, escríbenos por WhatsApp.
+        </p>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__card">
+          <img src="assets/tour_thumb.webp" alt="" />
+          <div class="hero__cardText">
+            <div class="hero__cardTitle">Recorrido virtual</div>
+            <div class="hero__cardSub">Explora OLAIA en minutos</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="section" aria-label="Ubicación">
+      <div class="section__head">
+        <h2>Ubicación</h2>
+        <p>Barranca Honda, Bajos de Chila, Oaxaca — San Pedro Mixtepec.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>Contexto estratégico</h3>
+          <p>
+            Lejos del turismo masivo, pero cerca de lo esencial: un entorno que conserva la tranquilidad de lo inalterado,
+            ideal para quienes buscan privacidad y un estilo de vida conectado al mar.
+          </p>
+          <ul class="bullets">
+            <li>A 15 minutos desde Puerto Escondido.</li>
+            <li>Cerca del aeropuerto y playas icónicas (Carrizalillo, Bacocho, Zicatela, Playa Delfín y más).</li>
+            <li>Zona en crecimiento con proyección natural de plusvalía (sin promesas mágicas).</li>
+          </ul>
+        </div>
+
+        <div class="card card--soft">
+          <h3>Mapa rápido</h3>
+          <p class="muted">Google Maps (abre en nueva pestaña):</p>
+          <a class="link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Barranca%20Honda%2C%20Bajos%20de%20Chila%2C%20Oaxaca">
+            Buscar “Barranca Honda, Bajos de Chila, Oaxaca”
+          </a>
+          <div class="divider"></div>
+          <p class="muted">Tip comercial:</p>
+          <p>Cuando el cliente pregunta “¿qué tan lejos?”, contesta con <strong>tiempo</strong>, no kilómetros. Vende simplicidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MASTER PLAN -->
+    <section id="masterplan" class="section" aria-label="Master Plan">
+      <div class="section__head">
+        <h2>Master Plan</h2>
+        <p>Distribución de lotes, vialidades y áreas verdes.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>Vista general</h3>
+          <p>
+            Diseño pensado para flujo vehicular limpio, áreas de donación y un trazo que prioriza la experiencia del residente.
+          </p>
+          <ul class="bullets">
+            <li>Lotes residenciales desde 200 m².</li>
+            <li>Servicios: energía eléctrica y agua potable.</li>
+            <li>Calles internas y áreas verdes.</li>
+          </ul>
+        </div>
+
+        <div class="card card--image">
+          <img src="assets/masterplan_ui.png" alt="Vista del master plan (referencia visual)" />
+        </div>
+      </div>
+    </section>
+
+    <!-- AMENIDADES -->
+    <section id="amenidades" class="section" aria-label="Amenidades">
+      <div class="section__head">
+        <h2>Amenidades</h2>
+        <p>Lo esencial bien hecho (porque el lujo real es que todo funcione).</p>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="card">
+          <h3>Fachada de acceso</h3>
+          <p>Entrada con identidad: primera impresión premium y controlable.</p>
+        </div>
+        <div class="card">
+          <h3>Piscina comunitaria</h3>
+          <p>Espacio social para residentes y visitantes: experiencia + valor percibido.</p>
+        </div>
+        <div class="card">
+          <h3>Servicios</h3>
+          <p>Energía eléctrica y red de agua potable (planificados por etapas).</p>
+        </div>
+      </div>
+
+      <div class="card card--soft mt">
+        <h3>Etapas del proyecto</h3>
+        <p class="muted">Resumen (consulta disponibilidad y precio vigente por WhatsApp):</p>
+        <div class="stages">
+          <div class="stage">
+            <div class="stage__title">Capital Semilla</div>
+            <div class="stage__meta">8 lotes • Precio por m² desde $3,950 MXN</div>
+          </div>
+          <div class="stage">
+            <div class="stage__title">Friends &amp; Family</div>
+            <div class="stage__meta">16 lotes • Precio por m² desde $4,463.5 MXN • Financiamiento hasta 48 meses</div>
+          </div>
+          <div class="stage">
+            <div class="stage__title">Lanzamiento</div>
+            <div class="stage__meta">20 lotes • Precio por m² desde $5,121.50 MXN</div>
+          </div>
+        </div>
+        <p class="tiny">
+          *Cifras tomadas del brochure y pueden variar según lote/etapa. “Rendimiento estimado” no es garantía; depende del mercado.
+        </p>
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video" class="section" aria-label="Video">
+      <div class="section__head">
+        <h2>Video</h2>
+        <p>El significado de OLAIA, contado por sus dueños.</p>
+      </div>
+
+      <div class="card card--video">
+        <div class="videoWrap">
+          <iframe
+            src="https://www.youtube.com/embed/kdiuWMLLqXk"
+            title="OLAIA Sanctuary — Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <p class="tiny muted">Tip: si reemplazas el video, solo cambia el ID en esta URL: <code>youtube.com/embed/ID</code>.</p>
+      </div>
+    </section>
+
+    <!-- RECORRIDO VIRTUAL -->
+    <section id="recorrido" class="section" aria-label="Recorrido virtual">
+      <div class="section__head">
+        <h2>Recorrido virtual</h2>
+        <p>Abre el recorrido interactivo con miniatura (ideal para mandar por WhatsApp).</p>
+      </div>
+
+      <div class="grid grid--2">
+        <a class="card card--click" target="_blank" rel="noopener" href="https://olaia.lunagrupoinmbsc.com/">
+          <img class="thumb" src="assets/tour_thumb.webp" alt="Miniatura del recorrido virtual de OLAIA" />
+          <div class="card__body">
+            <h3>Explorar ahora</h3>
+            <p class="muted">Se abre en una nueva pestaña.</p>
+          </div>
+        </a>
+
+        <div class="card card--soft">
+          <h3>Script rápido para WhatsApp</h3>
+          <p class="muted">Copia y pega:</p>
+          <div class="copybox" data-copy="Hola 👋 Te comparto el recorrido virtual de OLAIA Sanctuary: https://olaia.lunagrupoinmbsc.com/  
+
+Si quieres, te mando el brochure y opciones disponibles.">
+            <p>Hola 👋 Te comparto el recorrido virtual de OLAIA Sanctuary:<br><strong>https://olaia.lunagrupoinmbsc.com/</strong><br><br>
+            Si quieres, te mando el brochure y opciones disponibles.</p>
+            <button class="btn btn--small" type="button">Copiar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BROCHURE -->
+    <section id="brochure" class="section" aria-label="Brochure">
+      <div class="section__head">
+        <h2>Brochure</h2>
+        <p>Descarga el PDF oficial para revisar detalles.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>PDF</h3>
+          <p>Incluye concepto, ubicación, etapas, timeline y amenidades.</p>
+          <a class="btn btn--primary" href="assets/brochure_olaia.pdf" target="_blank" rel="noopener">Abrir brochure</a>
+          <a class="btn btn--ghost" href="assets/brochure_olaia.pdf" download>Descargar</a>
+        </div>
+        <div class="card card--soft">
+          <h3>Documentación legal</h3>
+          <p class="muted">En el brochure hay un bloque de “Documentación Legal”. Aquí lo dejamos listo para conectar cuando tengas el link oficial.</p>
+          <p class="tiny">Cuando tengas la URL, reemplaza el botón en <code>index.html</code> (busca “Documentación legal”).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section" aria-label="Contacto">
+      <div class="section__head">
+        <h2>Contacto</h2>
+        <p>Respuesta rápida por WhatsApp (Kommo lo atiende; tú solo cierras).</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>WhatsApp</h3>
+          <p class="big">+52 954 559 5087</p>
+          <a class="btn btn--primary" target="_blank" rel="noopener" href="https://wa.me/529545595087?text=Hola%20quiero%20informaci%C3%B3n%20de%20OLAIA%20Sanctuary">Escribir ahora</a>
+          <p class="tiny muted">Funciona en móvil y escritorio.</p>
+        </div>
+
+        <div class="card card--soft">
+          <h3>Marca</h3>
+          <div class="brandRow">
+            <img src="assets/olaia_logo_footer.webp" alt="OLAIA Sanctuary" height="40" />
+            <span class="muted">+</span>
+            <img src="assets/luna_logo_footer.webp" alt="LUNA Grupo Inmobiliario" height="28" />
+          </div>
+          <p class="tiny muted">Este sitio es estático (rápido, seguro y barato): perfecto para campañas y WhatsApp.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" aria-label="Pie de página">
+      <div class="footer__inner">
+        <span>© <span id="year"></span> OLAIA Sanctuary</span>
+        <span class="muted">Operado por LUNA Grupo Inmobiliario</span>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Floating WhatsApp -->
+  <a class="waFloat" target="_blank" rel="noopener"
+     href="https://wa.me/529545595087?text=Hola%20quiero%20informaci%C3%B3n%20de%20OLAIA%20Sanctuary"
+     aria-label="WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 3v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm3 5h10v2H7V9zm0 4h7v2H7v-2z"/>
+    </svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
